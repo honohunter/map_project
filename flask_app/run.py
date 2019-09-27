@@ -1,5 +1,5 @@
 from flask import Flask
-from config import Configdb
+from config import Configdb, Config
 from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
 from flask_migrate import Migrate
@@ -11,7 +11,7 @@ from flask_static_compress import FlaskStaticCompress
 app = Flask(__name__, static_folder="static", template_folder="templates")
 CORS(app)
 compress = FlaskStaticCompress(app)
-# app.config.from_object(Config)
+app.config.from_object(Config)
 app.config.from_object(Configdb)
 
 app.config['JWT_SECRET_KEY'] = 'jwt-secret-string'
@@ -42,4 +42,4 @@ def check_if_token_in_blacklist(decrypted_token):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()

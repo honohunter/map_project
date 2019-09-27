@@ -22,6 +22,10 @@ sudo apt install virtualenvwrapper
 ```
 
 ```
+source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+```
+
+```
 mkvirtualenv -p /usr/bin/python3 flask-venv
 ```
 

@@ -14,21 +14,48 @@ For the frontend i used React with webpack as assets manager
 
 ## Installing Requirements
 
-`cd flask_app`
-`pip install -r flask_app/requirements.txt`
-`export FLASK_APP=run.py`
-`flask db init`
-`flask db migrate`
-`flask db upgrade`
+```
+cd flask_app
+```
 
-`cd react_app`
-`npm install`
+```
+pip install -r flask_app/requirements.txt
+```
+
+```
+export FLASK_APP=run.py
+```
+
+```
+flask db init
+```
+
+```
+flask db migrate
+```
+
+```
+flask db upgrade
+```
+
+```
+cd react_app
+```
+
+```
+npm install
+```
 
 ## Running
 
 ### option 1 : fullstack application
 
-`cd flask_app`
-`flask run`
+```
+cd flask_app
+```
+
+```
+flask run
+```
 
 open in your browser [text](http://localhost:5000/)

@@ -1,0 +1,21 @@
+body {
+  height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.app nav {
+  flex: 0 1 auto;
+}
+
+.app .map {
+  flex: 1 1 auto;
+}
+
+.tabulator {
+  margin: 0;
+}

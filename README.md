@@ -1,7 +1,7 @@
 # Map Project
 
 _This project is made base on the test that described here
-[text](https://docs.google.com/document/d/1LulF_IS3GU0vPo_mileXiJ6bLL-4dW3yxBDtIbhuLM4/edit?fbclid=IwAR1C8s7TDQxHBI4dIm9ZFXXfXwAhtgv0DMLS6O42rQURUCcS9ffHuGJV5ng)_
+[link](https://docs.google.com/document/d/1LulF_IS3GU0vPo_mileXiJ6bLL-4dW3yxBDtIbhuLM4/edit?fbclid=IwAR1C8s7TDQxHBI4dIm9ZFXXfXwAhtgv0DMLS6O42rQURUCcS9ffHuGJV5ng)_
 This web application allow users to register their favorite locations and display them on map
 
 ## Backend

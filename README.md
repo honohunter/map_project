@@ -13,14 +13,30 @@ For the backend i used flask as restful api protected by JWT authentication, alo
 
 For the frontend i used React with webpack as assets manager
 
-## Installing Requirements
+## Installing
+
+### 1- Virtual Environment
+
+```
+sudo apt install virtualenvwrapper
+```
+
+```
+mkvirtualenv -p /usr/bin/python3 flask-venv
+```
+
+```
+workon odoo-venv
+```
+
+### 2- Requirements
 
 ```
 cd flask_app
 ```
 
 ```
-pip install -r flask_app/requirements.txt
+pip install -r requirements.txt
 ```
 
 ```

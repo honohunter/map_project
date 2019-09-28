@@ -1,4 +1,4 @@
-from run import db, ma
+from .run import db, ma
 from marshmallow import fields
 from passlib.hash import pbkdf2_sha256 as sha256
 

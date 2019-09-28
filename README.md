@@ -30,7 +30,7 @@ mkvirtualenv -p /usr/bin/python3 flask-venv
 ```
 
 ```
-workon odoo-venv
+workon flask-venv
 ```
 
 ### 2- Requirements
@@ -79,4 +79,4 @@ cd flask_app
 flask run
 ```
 
-open in your browser [text](http://localhost:5000/)
+open in your browser [localhost](http://localhost:5000/)

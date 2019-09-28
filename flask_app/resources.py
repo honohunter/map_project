@@ -1,5 +1,5 @@
 from flask_restful import Resource, reqparse, fields, marshal_with
-from models import UserModel, RevokedTokenModel, LocationModel
+from .models import UserModel, RevokedTokenModel, LocationModel
 import flask_jwt_extended as jwt
 
 

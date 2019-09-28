@@ -80,3 +80,23 @@ flask run
 ```
 
 open in your browser [localhost](http://localhost:5000/)
+
+### option 2 : client/server application
+
+```
+cd flask_app
+```
+
+```
+flask run
+```
+
+Open new terminal
+
+```
+cd react_app
+```
+
+```
+npm start
+```

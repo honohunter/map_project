@@ -7,7 +7,6 @@ class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or '@myKey@'
     DEBUG = True
     CSRF_ENABLED = True
-    SERVER_NAME = '0.0.0.0:5000'
 
 
 class Configdb(object):

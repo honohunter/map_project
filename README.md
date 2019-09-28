@@ -69,7 +69,7 @@ npm install
 
 ## Running
 
-### option 1 : fullstack application
+### Option 1 : Fullstack Application
 
 ```
 cd flask_app
@@ -79,9 +79,9 @@ cd flask_app
 flask run
 ```
 
-open in your browser [localhost](http://localhost:5000/)
+Open in your browser [localhost](http://localhost:5000/)
 
-### option 2 : client/server application
+### Option 2 : Client/Server Application
 
 ```
 cd flask_app
